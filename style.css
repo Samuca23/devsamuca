@@ -2,10 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /* background-image: url('./img/how-to-change-your-keyboard-layout-in-windows-11-1-compressed.webp'); */
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(15, 15, 15);
     color: #fff;
     font-family: "Fira Code", monospace;
 }
@@ -17,7 +16,7 @@ header {
     display: flex;
 }
 
-nav {
+.navbar {
     background-color: rgba(0, 0, 0, 0.836);
 }
 
@@ -51,23 +50,33 @@ footer {
 }
 
 .navbar-brand {
-    color: #00da62;
-}
-
-.navbar-brand:hover {
-    color: #00da62;
+    color: #00da62 !important;
 }
 
 .nav-link:hover {
-    color: #00da62;
+    color: #00da62 !important;
 }
 
 .dados-mais {
     background-color: rgba(0, 0, 0, 0.836);
     border-radius: 1rem;
     padding: 1rem;
-    margin: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 .icons-paragrafo{
     text-align: center;
+}
+
+i {
+    font-size: 28px;
+}
+
+.redes-sociais{
+    color: #ffffff;
+}
+
+.redes-sociais:hover{
+    color: #00da62;
+    text-decoration: none;
 }
