@@ -49,3 +49,25 @@ footer {
 .sobre-mim-ini {
     padding: 1rem;
 }
+
+.navbar-brand {
+    color: #00da62;
+}
+
+.navbar-brand:hover {
+    color: #00da62;
+}
+
+.nav-link:hover {
+    color: #00da62;
+}
+
+.dados-mais {
+    background-color: rgba(0, 0, 0, 0.836);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+.icons-paragrafo{
+    text-align: center;
+}
